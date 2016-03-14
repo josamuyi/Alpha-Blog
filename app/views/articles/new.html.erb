@@ -1,7 +1,16 @@
-<h1>Create a New Article</h1>
+<h1>Create Article</h1>
+
+<% if @article.errors.any? %>
+<h2>Please resolve the following error(s)</h2>
+<ul>
+  <% @article.errors.full_messages.each do |msg| %>
+  <li><%= msg %></li>
+  <% end %>
+</ul>
+<% end %>
 
 <%= form_for @article do |f| %>
-  <p>
+<p>
     <%= f.label :title %><br/>
     <%= f.text_field :title %>
   </p>
@@ -12,5 +21,6 @@
   <p>
     <%= f.submit %>
   </p>
+
 
 <% end %>
