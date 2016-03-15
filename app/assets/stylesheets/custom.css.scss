@@ -34,6 +34,16 @@ $navbar-default-bg: #08088A;
   padding-top: 8px;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 2px solid #eaeaea;
+  padding: 15px 0 15px 0;
+}
+
 .jumbotron {
   background-image: asset-url('blog2.png');
   background-size: cover;
