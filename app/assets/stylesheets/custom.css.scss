@@ -23,6 +23,17 @@ $navbar-default-bg: #08088A;
   color: white;
 }
 
+.centerdesc {
+  text-align: center;
+  margin-top: 0;
+ 
+}
+
+.article-actions {
+  border-top: 2px solid #eaeaea;
+  padding-top: 8px;
+}
+
 .jumbotron {
   background-image: asset-url('blog2.png');
   background-size: cover;
