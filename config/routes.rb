@@ -8,10 +8,10 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'pages#home'
   get 'pages/about', to: 'pages#about'
-  get 'articles/index', to: 'articles#index'
-  get 'articles/new', to: 'articles#new'
-  get 'articles/edit', to: 'articles#edit'
-  get 'articles/show', to: 'articles#show'
+  # get 'articles/index', to: 'articles#index'
+  # get 'articles/new', to: 'articles#new'
+  # get 'articles/edit', to: 'articles#edit'
+  # get 'articles/show', to: 'articles#show'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
