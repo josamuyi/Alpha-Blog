@@ -26,7 +26,8 @@ $navbar-default-bg: #08088A;
 .centerdesc {
   text-align: center;
   margin-top: 0;
- 
+  font-weight: bold;
+  
 }
 
 .article-actions {
@@ -42,6 +43,11 @@ $navbar-default-bg: #08088A;
 .article-body {
   border-top: 2px solid #eaeaea;
   padding: 15px 0 15px 0;
+}
+
+.listing {
+  list-style: none;    
+  padding-left: 0;
 }
 
 .article_meta_details {
