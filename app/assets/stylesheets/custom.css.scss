@@ -1,4 +1,4 @@
-$navbar-default-bg: black;
+$navbar-default-bg: #2D1152;
 /*$navbar-default-bg: #08088A;*/
 
 @import "bootstrap-sprockets";
@@ -11,7 +11,16 @@ $navbar-default-bg: black;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
+  
+}
 
+.nav li {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  
 }
 
 #logo:hover {
