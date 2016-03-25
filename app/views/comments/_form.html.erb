@@ -1,0 +1,6 @@
+<%= form_for(@article.comments.build, html: { align: "center" }, remote: true) do |f| %>
+  <%= f.hidden_field :article_id, :value => @article.id %>
+  <%= f.text_area :content, placeholder: "Write a comment..." %><br>
+  <br>
+  <%= f.submit "Post comment", id: "zero_margin" %>
+<% end %>

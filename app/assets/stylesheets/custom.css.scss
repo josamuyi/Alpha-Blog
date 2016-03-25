@@ -73,7 +73,67 @@ $navbar-default-bg: #2D1152;
   font-weight: bold;
 }
 
-input_checkbox input {
+.link_tags{
+  color: #089de3;
+  font-style: italic;
+}
+
+/*
+#zero_margin{
+  margin-left: 0;
+}
+
+/* Comment Styling -- Start 
+#comments_wrapper {
+  display: none;
+  margin: 20px  50px 0 0;
+  p {
+    margin: 15px;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+/* Comment Styling -- End */
+
+/* styling the input elements 
+ 
+input[type="text"], input[type="email"], input[type="password"], input[type="hidden"], textarea {
+  width: 50%;
+  border: 1px solid #d6dce0;
+  border-radius: .5em;
+  font-weight: normal;   
+  padding: .5em 1em;
+  line-height: 1.75;
+}
+input[type="text"] {
+  height: 35px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
+input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  margin-left: 200px;
+  &:hover {
+    border: 1px solid #33acb7;
+    color: #33acb7;
+  }
+}
+-- end */
+.input_checkbox input {
+  
   width: auto !important;
 }
 
@@ -125,4 +185,45 @@ footer ul li {
   float: left;
   margin-left: 15px;
   font-size: 1.1em;
+}
+
+.clear{
+    clear: both;
+}
+
+.links{
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.link_tags{
+  color: #089de3;
+  font-style: italic;
+}
+
+#comments_wrapper{
+  display: none;
+  margin: 20px  50px 0 0;
+  p{
+    margin: 15px;
+  }
+  li{
+    list-style-type: none;
+  }
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="hidden"], textarea {
+  width: 50%;
+  border: 1px solid #d6dce0;
+  border-radius: .5em;
+  font-weight: normal;   
+  padding: .5em 1em;
+  line-height: 1.75;
+}
+input[type="text"] {
+  height: 35px;
+}
+
+textarea {
+  min-height: 100px;
 }
