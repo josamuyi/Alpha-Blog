@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
 
-  before_action :authenticate_user!
+  #before_action :authenticate_user!
   
   def create
     @article = Article.find(params[:comment][:article_id])
@@ -24,6 +24,13 @@ class CommentsController < ApplicationController
 
     def comment_params
       params.require(:comment).permit(:content)
+    end
+    
+    def authenticate_user
+      if !logged_in?
+        flash[:danger] = "you must be logged in to perform that action"
+        redirect_to article_path(@article)
+      end
     end
 
 end
